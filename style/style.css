@@ -1,0 +1,16 @@
+@import url(../style/hero.css);
+
+:root {
+  --dark-green: #0a846e;
+  --brown: #9e6d52;
+  --dark-rose: #b93857;
+ /*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Frank Ruhl Libre', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Kaushan Script', cursive;
+font-family: 'Lato', sans-serif;
+font-family: 'Maven Pro', sans-serif;
+font-family: 'Open Sans', sans-serif;
+*/
+}
