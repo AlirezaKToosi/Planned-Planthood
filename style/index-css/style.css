@@ -4,7 +4,7 @@
 @import url(../index-css/footer.css);
 @import url(../my-page-css/hero.css);
 @import url(../my-page-css/add-info.css);
-
+@import url(../my-page-css/cards.css);
 :root {
   --dark-green: #0a846e;
   --brown: #9e6d52;
