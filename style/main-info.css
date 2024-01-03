@@ -1,0 +1,114 @@
+/* General Styles */
+.Title {
+    text-align: center;
+    color: var(--dark-green);
+    font-family: "Maven Pro", sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 29px;
+    margin-bottom: 29px;
+  }
+  
+  .Main-info {
+    width: 100%; /* Use relative units for responsiveness */
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-bottom: 20px;
+  }
+  
+  /* Seeds Section */
+  .seeds {
+    background-color: var(--dark-green);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .seeds img {
+    transform: scale(0.65);
+  }
+  
+  /* Season Seed Section */
+  .season-seed {
+    font-family: "Open Sans", sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-left: 80px; /* Adjust based on your design */
+  }
+  
+  .season-seed h1 {
+    font-size: 32px;
+    font-weight: 700;
+  }
+  
+  .season-seed p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  
+  .season-seed .sow-button {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    justify-content: flex-end;
+  }
+  
+  .season-seed .button {
+    background-color: var(--dark-green);
+    width: 179px;
+    height: 63px;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    border-radius: 9px;
+  }
+.seperator {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.line {
+  height: 5px;
+  width: 50%;
+  background-color: var(--dark-green);
+}
+  
+  /* Responsive Styles */
+  @media screen and (max-width: 600px) {
+    .Title {
+      font-size: 24px;
+    }
+  
+    .Main-info {
+      display: flex;
+      flex-direction: column-reverse;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .seeds {
+      width: 242px;
+      height: 242px;
+      margin-top: 20px;
+    }
+  
+    .season-seed {
+      padding-left: 10px;
+    }
+  
+    .season-seed h1 {
+      font-size: 16px;
+      margin-top: 30px;
+    }
+  
+    .season-seed p {
+      font-size: 14px;
+    }
+  
+    .season-seed .sow-button {
+      justify-content: center;
+    }
+  }
+  

@@ -1,4 +1,6 @@
 @import url(../style/hero.css);
+@import url(../style/main-info.css);
+@import url(../style/cards.css);
 
 :root {
   --dark-green: #0a846e;
