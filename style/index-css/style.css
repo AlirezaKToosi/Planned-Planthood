@@ -1,7 +1,8 @@
-@import url(../style/hero.css);
-@import url(../style/main-info.css);
-@import url(../style/cards.css);
-@import url(../style/footer.css);
+@import url(../index-css/hero.css);
+@import url(../index-css/main-info.css);
+@import url(../index-css/cards.css);
+@import url(../index-css/footer.css);
+@import url(../my-page-css/hero.css);
 
 :root {
   --dark-green: #0a846e;
