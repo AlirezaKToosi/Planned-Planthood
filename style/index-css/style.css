@@ -3,6 +3,7 @@
 @import url(../index-css/cards.css);
 @import url(../index-css/footer.css);
 @import url(../my-page-css/hero.css);
+@import url(../my-page-css/add-info.css);
 
 :root {
   --dark-green: #0a846e;
